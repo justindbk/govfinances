@@ -93,7 +93,7 @@ if(assemble_historical){
 	  mutate(FYEndDate = str_pad(FYEndDate,width = 4,side = "left",pad = "0"))
 	
 
-	save(IndFin, file="IndFin_19672012.RData")
+	save(IndFin, file="IndFin_19672012.RData",compress = "gzip")
 }
 if(!assemble_historical){ # if data already assembled
 	load(file="IndFin_19672012.RData")
