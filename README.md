@@ -1,2 +1,2 @@
 # govfinances
-Annual Survey of State and Local Government Finances + Census of Government: Finances
+Merges yearly files from Annual Survey of State and Local Government Finances and the Census of Government: Finances to create a concatenated file with recoded variables in categories of expenditures/revenues, adjusts dollar amounts to real terms based on CPI, computes per capita variables based on intercensal population estimates, as well as lag, lead, and delta versions of some finance categories.
